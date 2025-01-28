@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12091156335",
+    "project_id": "resultadosfutbol-f0d06",
+    "storage_bucket": "resultadosfutbol-f0d06.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12091156335:android:a637619c75d020a31baa9a",
+        "android_client_info": {
+          "package_name": "com.example.resultados"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6DeSeQL1j19xJVhWm6AguHoSIo9A9mqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

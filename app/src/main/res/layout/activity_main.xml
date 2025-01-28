@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1"
+    android:background="#FFFFFF">
+
+    <!-- Encabezado -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Equipos de Futbol"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp" />
+    </TableRow>
+
+    <!-- Nombre Equipo A -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Equipo A"
+            android:padding="8dp" />
+        <EditText
+            android:id="@+id/etEquipoA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Equipo A" />
+    </TableRow>
+
+    <!-- Goles Equipo A -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. de goles"
+            android:padding="8dp" />
+        <EditText
+            android:id="@+id/etGolesA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0" />
+    </TableRow>
+
+    <!-- Nombre Equipo B -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Equipo B"
+            android:padding="8dp" />
+        <EditText
+            android:id="@+id/etEquipoB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Equipo B" />
+    </TableRow>
+
+    <!-- Goles Equipo B -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. de goles"
+            android:padding="8dp" />
+        <EditText
+            android:id="@+id/etGolesB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0" />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siguiente"
+            android:background="#2196F3"
+            android:textColor="#FFFFFF"
+            android:padding="8dp" />
+    </TableRow>
+</TableLayout>
+
